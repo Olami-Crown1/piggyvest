@@ -1,0 +1,142 @@
+#logo {
+    width: 150px;
+}
+
+a {
+    color: rgb(80, 79, 79);
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f1f8f8;
+}
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.button {
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 60px;
+    padding: 20px;
+    border: 1px solid black
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+}
+
+.main  {
+    justify-content: space-around;
+
+}
+
+.center-div {
+    
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    line-height: 5px;
+}
+
+.content p {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.content span {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+
+.card {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px ;
+    line-height: 22px;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.card1:hover {
+    background-color: blue;
+    color: white;
+}
+
+.card2:hover {
+    background-color: #0a89f4;
+    color: white;
+}
+
+.card3:hover {
+    background-color: green;
+    color: white;
+}
+
+.card4:hover {
+    background-color: #f40a8b;
+    color: white;
+}
+.card5:hover {
+    background-color: black;
+    color: white;
+}
+
+.card6:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.card-buttom {
+    display: flex;
+    position: absolute;
+    bottom: 6%;
+}
+
+.card-buttom img {
+    height: 24px;
+    width: 24px;
+}
+
+.card-buttom2 {
+    display: flex;
+    position: absolute;
+    bottom: -65%;
+}
+
+.card-buttom2 img {
+    height: 24px;
+    width: 24px;
+}
+
+.card-buttom3 {
+    display: flex;
+    position: absolute;
+    bottom: -138%;
+}
+
+.card-buttom3 img {
+    height: 24px;
+    width: 24px;
+}
