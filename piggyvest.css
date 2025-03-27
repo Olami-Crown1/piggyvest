@@ -73,7 +73,7 @@ body {
     width: 400px;
     border-radius: 20px;
     background-color: white;
-    padding: 15px ;
+    padding: 15px 10px 0px 30px ;
     line-height: 22px;
     display: flex;
     justify-content: space-between;
@@ -141,39 +141,32 @@ body {
     color: white;
 }
 
-/* .card-buttom {
-    display: flex;
-    position: absolute;
-    bottom: 6%;
-} */
 
-.card-buttom img {
+.icon {
     height: 24px;
     width: 24px;
 }
 
-/* .card-buttom2 {
-    display: flex;
-    position: absolute;
-    bottom: -65%;
-} */
-
-.card-buttom2 img {
-    height: 24px;
-    width: 24px;
-}
-
-/* .card-buttom3 {
-    display: flex;
-    position: absolute;
-    bottom: -138%;
-} */
-
-.card-buttom3 img {
-    height: 24px;
-    width: 24px;
-}
 
 .card:hover .icon {
     content: url(./image/subdirectory_arrow_right_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
 }
+
+.link {
+    display: flex;
+    gap: 10px;
+    font-weight: normal;
+}
+
+.card-buttom, .card-buttom2, .card-buttom3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twins {
+     margin-top: 170px;
+}
+
+/* .phone {
+    position: absolute;
+} */
