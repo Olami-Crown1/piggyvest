@@ -64,6 +64,7 @@ body {
     gap: 30px;
     margin-top: 25px;
     justify-content: center;
+    cursor: pointer;
 }
 
 
